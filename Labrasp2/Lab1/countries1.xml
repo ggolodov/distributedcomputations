@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="WINDOWS-1251" standalone="no"?>
+<!DOCTYPE map SYSTEM "countries.dtd">
+<map>
+    <country id="1" name="Россия">
+        <city count="11000000" id="1" isCapital="1" name="Москва"/>
+        <city count="5000000" id="2" isCapital="0" name="Питер"/>
+        <city count="1200000" id="3" isCapital="0" name="Сочи"/>
+    </country>
+    <country id="2" name="Украина">
+        <city count="3000000" id="4" isCapital="1" name="Киев"/>
+        <city count="1100000" id="6" isCapital="0" name="Львов"/>
+    </country>
+    <country id="3" name="Белоруссия">
+        <city count="1700000" id="7" isCapital="1" name="Минск"/>
+        <city count="350000" id="8" isCapital="0" name="Витебск"/>
+    </country>
+</map>

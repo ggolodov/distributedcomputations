@@ -1,0 +1,9 @@
+<!ELEMENT map (country+)>
+<!ELEMENT country (city*)>
+<!ATTLIST country id CDATA #REQUIRED>
+<!ATTLIST country name CDATA #REQUIRED>
+<!ELEMENT city EMPTY>
+<!ATTLIST city count CDATA #REQUIRED>
+<!ATTLIST city id CDATA #REQUIRED>
+<!ATTLIST city isCapital (0|1) "0">
+<!ATTLIST city name CDATA #REQUIRED>
